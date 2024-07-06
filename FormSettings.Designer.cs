@@ -44,7 +44,7 @@ partial class FormSettings
             System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("Lower Kurast (Chests)");
             //System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem("Act3 Sewers (Chests)");
             System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem("Upper Kurast (Chests)");
-            //System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem("Travincal");
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem("Travincal");
             System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem("Mephisto");
             System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem("Chaos");
             System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem("Chaos Leech");
@@ -208,7 +208,7 @@ partial class FormSettings
             listViewItem14.StateImageIndex = 0;
             //listViewItem15.StateImageIndex = 0;
             listViewItem16.StateImageIndex = 0;
-            //listViewItem17.StateImageIndex = 0;
+            listViewItem17.StateImageIndex = 0;
             listViewItem18.StateImageIndex = 0;
             listViewItem19.StateImageIndex = 0;
             listViewItem20.StateImageIndex = 0;
@@ -238,7 +238,7 @@ partial class FormSettings
             listViewItem14,
             //listViewItem15,
             listViewItem16,
-            //listViewItem17,
+            listViewItem17,
             listViewItem18,
             listViewItem19,
             listViewItem20,

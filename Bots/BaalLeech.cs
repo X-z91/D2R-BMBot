@@ -329,7 +329,7 @@ public class BaalLeech
                     || Form1_0.PlayerScan_0.yPosFinal > 5030 + 8)
                 {
                     //Form1_0.Town_0.GetCorpse();
-                    Form1_0.Mover_0.MoveToLocation(15110, 5030); //move to safe spot
+                    Form1_0.Mover_0.MoveToLocation(15109, 5043); //move to safe spot
                 }
                 else
                 {

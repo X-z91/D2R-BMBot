@@ -81,7 +81,7 @@ public partial class FormSettings : Form
         listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunLowerKurastScript;
         //listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunA3SewersScript;
         listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunUpperKurastScript;
-        //listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunTravincalScript;
+        listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunTravincalScript;
         listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunMephistoScript;
         listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunChaosScript;
         listViewRunScripts.Items[CurrI++].Checked = CharConfig.RunChaosLeechScript;
@@ -283,7 +283,7 @@ public partial class FormSettings : Form
         CharConfig.RunLowerKurastScript = listViewRunScripts.Items[CurrI++].Checked;
         //CharConfig.RunA3SewersScript = listViewRunScripts.Items[CurrI++].Checked;
         CharConfig.RunUpperKurastScript = listViewRunScripts.Items[CurrI++].Checked;
-        //CharConfig.RunTravincalScript = listViewRunScripts.Items[CurrI++].Checked;
+        CharConfig.RunTravincalScript = listViewRunScripts.Items[CurrI++].Checked;
         CharConfig.RunMephistoScript = listViewRunScripts.Items[CurrI++].Checked;
         CharConfig.RunChaosScript = listViewRunScripts.Items[CurrI++].Checked;
         CharConfig.RunChaosLeechScript = listViewRunScripts.Items[CurrI++].Checked;
