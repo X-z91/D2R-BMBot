@@ -41,7 +41,7 @@ using System.Linq.Expressions;
 public partial class Form1 : Form
 {
 
-    public string BotVersion = "V3.05R2";
+    public string BotVersion = "V3.05R3";
 
     public string D2_LOD_113C_Path = "";
 
